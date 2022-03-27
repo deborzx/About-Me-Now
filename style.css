@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=Teko:wght@700&display=swap');
+
+
+body {
+    background-image: linear-gradient(to right, #9c51ff, #5616a0);
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+#barra{
+    width: 48vw;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem
+    
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;
+    padding: 6rem
+}
+
+.apresentacao h2{
+    font-size: 3em;
+}
+
+.apresentacao p{
+    font-size: 30px;
+}
+
+.btn-2 {
+    font-family: Poppins;
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #5833ffdc;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    height: 41px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.picture img{
+    border-radius: 300px;
+}
+
+
+.menu a {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.bt a{
+    text-decoration: none;
+    color: inherit
+}
+
+
+
+.title {
+    text-align: center;
+    color: #fff;
+    margin: 5vh;
+    font-size: 2rem;
+}
+
+
+
+.text-1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#skills {
+    margin: 8rem;
+}
+
+#projetos{
+    margin: 8rem;
+}
+
+#contato{
+    margin: 8rem;
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
