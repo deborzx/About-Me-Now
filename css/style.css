@@ -86,22 +86,25 @@ li {
 
 
 .text-1{
+    width: 600px;
     font-size: 20px;
+    margin: auto;
     color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: justify;
 }
 
 #skills {
-    margin: 8rem;
+    margin: 5rem;
 }
 
 #projetos{
-    margin: 8rem;
+    margin: 5rem;
 }
 
 #contato{
-    margin: 8rem;
+    margin: 5rem;
 }
+
 .logos{
     display: flex;
     flex-wrap: wrap;
@@ -133,3 +136,4 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
