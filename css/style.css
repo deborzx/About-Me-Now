@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: linear-gradient(to right, #9c51ff, #5616a0);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.95) 9.53%, rgba(126, 69, 248, 0.95) 86.3%);
     font-family: 'Poppins';
     color: #fff;
 }
@@ -57,7 +57,6 @@ body {
 .menu a {
     font-size: 1.3rem;
     color: rgb(255, 255, 255);
-    text-decoration: none;    
     letter-spacing: 0.2rem;
     text-decoration: none;
     color: #f3f3f3;
@@ -69,11 +68,35 @@ li {
     list-style-type: none;
   }
 
+  .menu a:hover {
+    background: #5833ffdc;
+    content: "";
+}
+
 .bt a{
     text-decoration: none;
     color: inherit
 }
 
+.btn-t{
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.btn-2 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+}
+
+button:hover, 
+button:focus {
+    transition: transform 1s;
+    transform: translateX(10px) scale(1.1);
+}
 
 
 .title {
@@ -130,10 +153,29 @@ li {
     justify-content: center;
 }
 
+.icons a{
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+}
+
+
 footer {
     color: #fff;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .logos{
+        display: grid;
+        justify-content: center;
+    }
+
+    .group{
+        display: grid;
+    }
 }
